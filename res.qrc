@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/cc">
+        <file>Imgs/tx/DiffLevel.png</file>
+        <file>Imgs/tx/MiddleLevel.png</file>
+        <file>Imgs/tx/Player.png</file>
+        <file>Imgs/tx/SimpleLevel.png</file>
+        <file>Imgs/ChessBoardBg.png</file>
+    </qresource>
+</RCC>

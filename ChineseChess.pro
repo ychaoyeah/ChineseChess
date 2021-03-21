@@ -12,4 +12,20 @@ TARGET = ChineseChess
 TEMPLATE = app
 
 SOURCES += \
+    HeadIcon.cpp \
+    MainDlg.cpp \
     main.cpp
+
+FORMS += \
+    HeadIcon.ui \
+    MainDlg.ui
+
+HEADERS += \
+    HeadIcon.h \
+    MainDlg.h
+
+RESOURCES += \
+    res.qrc
+
+
+
