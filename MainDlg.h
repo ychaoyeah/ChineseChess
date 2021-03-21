@@ -4,6 +4,7 @@
 #include <QDialog>
 
 #include "HeadIcon.h"
+#include "ChessBorad.h"
 
 namespace Ui {
 class MainDlg;
@@ -23,6 +24,9 @@ private:
     /// 头像控件
     HeadIcon *_playerIcon;
     HeadIcon *_aiIcon;
+
+    /// 棋盘
+    ChessBorad *_chessBoard;
 };
 
 #endif // MAINDLG_H

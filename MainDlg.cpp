@@ -35,9 +35,11 @@ MainDlg::MainDlg(QWidget *parent) :
     hLayout2->addSpacing(spaceWidth);
     hLayout2->addWidget(_playerIcon);
 
+    _chessBoard = new ChessBorad;
+
     QVBoxLayout *vLayout = new QVBoxLayout;
     vLayout->addItem(hLayout1);
-    vLayout->addWidget(new QWidget(this));
+    vLayout->addWidget(_chessBoard);
     vLayout->addItem(hLayout2);
     vLayout->setStretch(0, 1);
     vLayout->setStretch(1, 4);
@@ -47,5 +49,10 @@ MainDlg::MainDlg(QWidget *parent) :
 
 MainDlg::~MainDlg()
 {
+    if (nullptr != _chessBoard) {
+        delete _chessBoard;
+        _chessBoard = nullptr;
+    }
+
     delete ui;
 }

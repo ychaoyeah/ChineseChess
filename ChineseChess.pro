@@ -12,6 +12,7 @@ TARGET = ChineseChess
 TEMPLATE = app
 
 SOURCES += \
+    ChessBorad.cpp \
     HeadIcon.cpp \
     MainDlg.cpp \
     main.cpp
@@ -21,6 +22,7 @@ FORMS += \
     MainDlg.ui
 
 HEADERS += \
+    ChessBorad.h \
     HeadIcon.h \
     MainDlg.h
 
